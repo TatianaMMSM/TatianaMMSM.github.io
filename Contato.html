@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato</title>
+    <style>
+        body{
+            background-image: url("planofundo.png") ;
+        }
+
+        .titulo{
+            text-align: center;
+            color:rgb(7, 56, 85);
+            font-style: oblique;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;  
+            font-size: 40px;            
+        }
+        .texto{
+            text-align: justify;
+            padding-right: 40px;
+            padding-left: 40px;
+            color:rgba(1, 21, 32, 0.959);
+            font-style: normal;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;   
+            font-size: 30px;       
+            margin: 5%;   
+        }
+        header {
+            background-color: #839ead;
+            
+        }
+
+        #formulario form {
+            text-align: center;
+            background-color: rgba(195, 230, 253, 0.493);
+        }
+        #formulario button {
+            float: center;
+        }
+  
+        #formulario input[type="text"], 
+        #formulario textarea {
+            width: 40%;      
+        }
+
+        label {
+            padding-right: 20px;
+            display: inline-block;
+            width: 120px; 
+            text-align: left; 
+        }
+
+        ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        background-color: #76ccee8f;
+        }
+        li{float:left;}
+        li a {
+            display: block;
+            color: #112d44;
+            padding: 8px 16px;
+            text-decoration: none; 
+            background-color: rgba(142, 185, 202, 0.493);          
+        }
+
+        li a:hover {
+            background-color: #112d44;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul style="text-align: center;padding-left: 25%;font-size: 20px;">
+            <li><a href="Quemsou.html">Quem sou eu</a></li>
+            <li><a href="Formação Acadêmica.html">Formação Acadêmica</a></li>
+            <li><a href="Portifólio.html">Portifólio</a></li>
+            <li><a href="Contato.html">Contato</a></li>   
+            <li><a href="index.html">Página inicial</a></li>
+        </ul>
+        <br><br>
+    </nav>
+    <h1 class="titulo">
+        Contato
+    </h1>
+    <div class="texto" style="font-size: 20px; text-align: center;">
+        <p><h2>Deseja entrar em contato?</h2></p>
+        <p>Telefone: (32) 998409-9933</p>
+        <p>E-mail: <a href="mailto:tatianammsm@gmail.com">tatianammsm@gmail.com</a></p>
+        <br>
+        <p> <h2>Ou envie diretamente sua mensagem:</h2> </p>
+
+    <div id="formulario" style="font-size: 20px;">
+    <form>
+        <label for="nome">Nome:</label><input type="text" id="nome"><br>
+        <label for="telefone">Telefone:</label><input type="text" id="telefone"><br><br>
+        <textarea id="msg" style="width: 600px; height: 150px;" placeholder="Digite aqui sua mensagem..."></textarea><br>
+        <button type="submit">Enviar</button>
+       
+        <p style="font-size: medium;">Obs: funcionalidade "Enviar" não configurada</p>
+    </form>
+    </div>
+
+</div>
+
+</body>
+</html>
